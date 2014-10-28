@@ -43,29 +43,21 @@ The following items were discussed:
   	* Development tools and version control (PyCharm & GIT)
 * Numerical Arrays
   	* 1D and N-D arrays, arithmetics, masked arrays, manipulations, and generating random data (NumPy & numexpr)
-* Astronomy Specific Packages
-  	* PyFITS & PyWCS:
-	 	* Reading, writing, and generating FITS tables and image arrays
-	 	* World Coordinate Systems; calculating the RA and DEC of pixels in your image
-  	* PyRAF:
-		 * How to call IRAF from Python
 * Data Access and Processing:
-  	* Reading in an ascii file and pickled data (NumPy, cPickle)
-  	* Creating an sqlite database and querying it (real-world example using SDSS data)
-* Scientific analysis:
+  	* Reading in an ascii file and pickled data (NumPy, pandas, cPickle)
+  	* Creating an sqlite database and querying it (sqlite3)
+* Scientific Analysis:
   	* optimisation, fitting, interpolation, root finding, and statistics and distributions (SciPy, statsmodels)
 * Generating publication quality plots:
   	* 2D plotting (matplotlib)
-  	* Astronomy specific plotting e.g. different projections (Kapteyn)
 * Image manipulation:
   	* Smoothing and convolving (SciPy)
   	* Object detection, segmentation, and edge detection (scikits-image)
-* Speeding things up:
-  	* Parallel programming with multiprocessing
-  	* Calling Fortran code from Python
+* Model Fitting:
+    * Monte Carlo Markov Chain PDF estimation (emcee)
 * Machine learning:
-  	* Principal Component Analysis
-  	* Supervised Learning, Clustering, etc. (scikits-learn)
+    * Principal Component Analysis
+    * Supervised Learning, Clustering, etc. (scikits-learn)
 
 
 
