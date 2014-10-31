@@ -12,8 +12,8 @@ The use of Python in scientific data analysis, especially in astronomy, is growi
 Material
 ---------
 
-This repository holds the material for a Python course that was held at
-Mullard Space Science Laboratory in November 2014.
+This repository holds the material of a Python course held at
+Mullard Space Science Laboratory (University College London) in November 2014.
 
 
 Presentation
@@ -23,17 +23,17 @@ The view graphs are available in PDF and Keynote format and can be
 found in the presentation folder.
 
 
-iPython Notebooks
+IPython Notebooks
 -----------------
 
-The iPython Notebooks are available from the notebook folder.
+The IPython Notebooks are available from the notebook folder.
 
 
 Syllabus
 --------
 
 
-The following items were discussed:
+The following items are covered:
 
 * Background Information and Tools
   	* Why Python?
@@ -50,15 +50,15 @@ The following items were discussed:
   	* optimisation, fitting, interpolation, root finding, and statistics and distributions (SciPy, statsmodels)
 * Generating publication quality plots:
   	* 2D plotting (matplotlib)
-* Image manipulation:
-  	* Smoothing and convolving (SciPy)
-  	* Object detection, segmentation, and edge detection (scikits-image)
 * Model Fitting:
+    *
     * Monte Carlo Markov Chain PDF estimation (emcee)
 * Machine learning:
     * Principal Component Analysis
     * Supervised Learning, Clustering, etc. (scikits-learn)
-
+* Image manipulation:
+    * Smoothing and convolving (SciPy)
+    * Object detection, segmentation, and edge detection (scikits-image)
 
 
 Some Useful Packages
