@@ -47,18 +47,20 @@ The following items are covered:
   	* Reading in an ascii file and pickled data (NumPy, pandas, cPickle)
   	* Creating an sqlite database and querying it (sqlite3)
 * Scientific Analysis:
-  	* optimisation, fitting, interpolation, root finding, and statistics and distributions (SciPy, statsmodels)
-* Generating publication quality plots:
+  	* Optimisation, fitting, interpolation, root finding, and statistics and distributions (SciPy)
+* Generating publication quality figures:
   	* 2D plotting (matplotlib)
 * Model Fitting:
-    *
+    * Maximum Likelihood (SciPy)
     * Monte Carlo Markov Chain PDF estimation (emcee)
-* Machine learning:
-    * Principal Component Analysis
-    * Supervised Learning, Clustering, etc. (scikits-learn)
-* Image manipulation:
-    * Smoothing and convolving (SciPy)
-    * Object detection, segmentation, and edge detection (scikits-image)
+* Machine Learning:
+    * Dimensional Reduction: Principal Component Analysis (scikits-learn)
+    * Classification (scikits-learn)
+    * Clustering (scikits-learn)
+    * Regression (scikits-learn)
+* Image Processing:
+    * Drawing simple images, edge detection and template matching  (scikits-image)
+    * Object detection (scikits-image)
 
 
 Some Useful Packages
